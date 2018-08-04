@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="QRCodeGen Jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/QRCodeGen_Jar</output-path>
+    <root id="archive" name="QRCodeGen.jar">
+      <element id="module-output" name="QRCodeGen" />
+    </root>
+  </artifact>
+</component>

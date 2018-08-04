@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="498" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="94" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+  </NonVisualComponents>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_formBundle" type="java.lang.String" value="qrcodegen/modules/vcardgenpanel/view/VCardNamePanel"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="givenNameLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="familyNameLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="honorificPrefixesLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="nicknameLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="formattedNameLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="organizationLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="formattedNameField" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="honorificPrefixesField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="familyNameField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="givenNameField" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="additionalNamesLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="additionalNamesField" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="honorificSuffixesLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="unitNamesField" max="32767" attributes="0"/>
+                                          <Component id="honorificSuffixesField" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="organizationField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="nicknameField" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="unitNamesLabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="formattedNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="formattedNameField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="givenNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="givenNameField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="additionalNamesLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="additionalNamesField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="familyNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="familyNameField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="honorificPrefixesLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="honorificPrefixesField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="honorificSuffixesLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="honorificSuffixesField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="nicknameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="nicknameField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="organizationField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="organizationLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="unitNamesLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="unitNamesField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="formattedNameLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+          <ResourceString bundle="qrcodegen/modules/vcardgenpanel/view/VCardNamePanel.properties" key="VCardNamePanel.formattedNameLabel.text_1" replaceFormat="RES.getString(&quot;{key}&quot;)"/>
+        </Property>
+        <Property name="toolTipText" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+          <ResourceString bundle="qrcodegen/modules/vcardgenpanel/view/VCardNamePanel.properties" key="VCardNamePanel.formattedNameLabel.toolTipText_1" replaceFormat="RES.getString(&quot;{key}&quot;)"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="formattedNameField">
+      <Properties>
+        <Property name="columns" type="int" value="30"/>
+        <Property name="toolTipText" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+          <ResourceString bundle="qrcodegen/modules/vcardgenpanel/view/VCardNamePanel.properties" key="VCardNamePanel.formattedNameField.toolTipText_1" replaceFormat="RES.getString(&quot;{key}&quot;)"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="familyNameLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+          <ResourceString bundle="qrcodegen/modules/vcardgenpanel/view/VCardNamePanel.properties" key="VCardNamePanel.familyNameLabel.text_1" replaceFormat="RES.getString(&quot;{key}&quot;)"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="familyNameField">
+      <Properties>
+        <Property name="columns" type="int" value="15"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="honorificSuffixesLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+          <ResourceString bundle="qrcodegen/modules/vcardgenpanel/view/VCardNamePanel.properties" key="VCardNamePanel.honorificSuffixesLabel.text_1" replaceFormat="RES.getString(&quot;{key}&quot;)"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="givenNameLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+          <ResourceString bundle="qrcodegen/modules/vcardgenpanel/view/VCardNamePanel.properties" key="VCardNamePanel.givenNameLabel.text_1" replaceFormat="RES.getString(&quot;{key}&quot;)"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="honorificSuffixesField">
+      <Properties>
+        <Property name="columns" type="int" value="15"/>
+        <Property name="toolTipText" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+          <ResourceString bundle="qrcodegen/modules/vcardgenpanel/view/VCardNamePanel.properties" key="VCardNamePanel.honorificSuffixesField.toolTipText_1" replaceFormat="RES.getString(&quot;{key}&quot;)"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="givenNameField">
+      <Properties>
+        <Property name="columns" type="int" value="15"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="additionalNamesField">
+      <Properties>
+        <Property name="columns" type="int" value="15"/>
+        <Property name="toolTipText" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+          <ResourceString bundle="qrcodegen/modules/vcardgenpanel/view/VCardNamePanel.properties" key="VCardNamePanel.additionalNamesField.toolTipText_1" replaceFormat="RES.getString(&quot;{key}&quot;)"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="honorificPrefixesLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+          <ResourceString bundle="qrcodegen/modules/vcardgenpanel/view/VCardNamePanel.properties" key="VCardNamePanel.honorificPrefixesLabel.text_1" replaceFormat="RES.getString(&quot;{key}&quot;)"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="additionalNamesLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+          <ResourceString bundle="qrcodegen/modules/vcardgenpanel/view/VCardNamePanel.properties" key="VCardNamePanel.additionalNamesLabel.text_1" replaceFormat="RES.getString(&quot;{key}&quot;)"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="honorificPrefixesField">
+      <Properties>
+        <Property name="columns" type="int" value="15"/>
+        <Property name="toolTipText" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+          <ResourceString bundle="qrcodegen/modules/vcardgenpanel/view/VCardNamePanel.properties" key="VCardNamePanel.honorificPrefixesField.toolTipText_1" replaceFormat="RES.getString(&quot;{key}&quot;)"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="nicknameLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+          <ResourceString bundle="qrcodegen/modules/vcardgenpanel/view/VCardNamePanel.properties" key="VCardNamePanel.nicknameLabel.text_1" replaceFormat="RES.getString(&quot;{key}&quot;)"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="nicknameField">
+      <Properties>
+        <Property name="columns" type="int" value="15"/>
+        <Property name="toolTipText" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+          <ResourceString bundle="qrcodegen/modules/vcardgenpanel/view/VCardNamePanel.properties" key="VCardNamePanel.nicknameField.toolTipText_1" replaceFormat="RES.getString(&quot;{key}&quot;)"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="organizationLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+          <ResourceString bundle="qrcodegen/modules/vcardgenpanel/view/VCardNamePanel.properties" key="VCardNamePanel.organizationLabel.text" replaceFormat="RES.getString(&quot;{key}&quot;)"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="organizationField">
+      <Properties>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+          <ResourceString bundle="qrcodegen/modules/vcardgenpanel/view/VCardNamePanel.properties" key="VCardNamePanel.organizationField.text" replaceFormat="RES.getString(&quot;{key}&quot;)"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="unitNamesLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+          <ResourceString bundle="qrcodegen/modules/vcardgenpanel/view/VCardNamePanel.properties" key="VCardNamePanel.unitNamesLabel.text" replaceFormat="RES.getString(&quot;{key}&quot;)"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="unitNamesField">
+      <Properties>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+          <ResourceString bundle="qrcodegen/modules/vcardgenpanel/view/VCardNamePanel.properties" key="VCardNamePanel.unitNamesField.text" replaceFormat="RES.getString(&quot;{key}&quot;)"/>
+        </Property>
+        <Property name="toolTipText" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+          <ResourceString bundle="qrcodegen/modules/vcardgenpanel/view/VCardNamePanel.properties" key="VCardNamePanel.unitNamesField.toolTipText" replaceFormat="RES.getString(&quot;{key}&quot;)"/>
+        </Property>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

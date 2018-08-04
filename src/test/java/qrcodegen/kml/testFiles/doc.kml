@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Placemark>
+	<name>Google</name>
+	<address>2350 Bayshore Parkway&lt;br/&gt;Mountain View, CA 94043, United States</address>
+	<Snippet maxLines="2"><![CDATA[2350 Bayshore Parkway, Mountain View, CA 94043, United States<br/>(650) 253-0000]]></Snippet>
+	<styleUrl>#placepage_style</styleUrl>
+	<StyleMap>
+		<Pair>
+			<key>normal</key>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.gstatic.com/intl/de_de/mapfiles/kml/paddle/A.png</href>
+					</Icon>
+					<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+				</IconStyle>
+				<ListStyle>
+					<listItemType>check</listItemType>
+					<ItemIcon>
+						<state>open closed error fetching0 fetching1 fetching2</state>
+						<href>http://maps.gstatic.com/intl/de_de/mapfiles/kml/paddle/A-lv.png</href>
+					</ItemIcon>
+					<bgColor>00ffffff</bgColor>
+					<maxSnippetLines>2</maxSnippetLines>
+				</ListStyle>
+			</Style>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<Style>
+				<IconStyle>
+					<scale>1.3</scale>
+					<Icon>
+						<href>http://maps.gstatic.com/intl/de_de/mapfiles/kml/paddle/A.png</href>
+					</Icon>
+					<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+				</IconStyle>
+				<ListStyle>
+					<listItemType>check</listItemType>
+					<ItemIcon>
+						<state>open closed error fetching0 fetching1 fetching2</state>
+						<href>http://maps.gstatic.com/intl/de_de/mapfiles/kml/paddle/A-lv.png</href>
+					</ItemIcon>
+					<bgColor>00ffffff</bgColor>
+					<maxSnippetLines>2</maxSnippetLines>
+				</ListStyle>
+			</Style>
+		</Pair>
+	</StyleMap>
+	<ExtendedData>
+		<Data name="balloon_text">
+			<value><![CDATA[<div id="pp-earth-balloon"> <div id="placepagepanel"> <div id="pp-maincol"> <div id="pp-headline">  <div class="pp-story" id="pp-headline-cover" style="float:right"><div class="pp-coverphoto">  <div> <a href="http://maps.google.de/local_url?dq=Google+Campus+USA&amp;q=https://lh3.googleusercontent.com/-INEKRSfTF3g/T6Q59CHWErI/AAAAAAAANIQ/OnKkSjb33Vs/s1600/Google%252BWest%252BCampus%252B6%252BLobby&amp;ved=0CAsQhgU&amp;sa=X&amp;provider=googleusercontent.com&amp;geocode=FZMMOwIdYPm4-A&amp;ei=b8YHUfHJMo6C8gOXkoHADw&amp;s=ANYYN7l0KX2KczIjAyIaQ18m8cH-bP5ErA" target="_blank"> <div>    <div class="photo-shadow"> <div class="photo-border"> <img src="https://lh3.googleusercontent.com/-INEKRSfTF3g/T6Q59CHWErI/AAAAAAAANIQ/OnKkSjb33Vs/s220/Google%2BWest%2BCampus%2B6%2BLobby" alt="Foto" title="Foto" class="pp-linked-photo"/> </div> </div>  </div> </a>  </div> <div class="pp-source-name pp-cover-source pp-cover-text">  <span class="pp-hover-attribution"><a class="pp-more-content-link" href="http://maps.google.de/local_url?dq=Google+Campus+USA&amp;q=https://lh3.googleusercontent.com/-INEKRSfTF3g/T6Q59CHWErI/AAAAAAAANIQ/OnKkSjb33Vs/s1600/Google%252BWest%252BCampus%252B6%252BLobby&amp;ved=0CAwQrgg&amp;sa=X&amp;ei=b8YHUfHJMo6C8gOXkoHADw&amp;s=ANYYN7l0KX2KczIjAyIaQ18m8cH-bP5ErA" target="_blank"><span>Von einem Google-Nutzer</span></a></span> </div>  </div></div> <div class="pp-story" id="pp-headline-details"> <div class="pp-headline-text"> <div> <span class="pp-place-title"><a href="https://plus.google.com/105638463296317749404/about?gl=DE&amp;hl=de-DE&amp;ved=0CA0Q2QY&amp;sa=X&amp;ei=b8YHUfHJMo6C8gOXkoHADw" target="_blank"><span>Google</span></a></span>  </div>  <span dir="ltr" class="pp-headline-item pp-headline-address"><span>2350 Bayshore Pkwy, Mountain View, CA 94043, Vereinigte Staaten</span></span> <span class="pp-headline-item pp-headline-phone"> <span class="telephone" dir="ltr"> <nobr>+1 650-253-0000</nobr> <span class="pp-headline-phone-label" style="display:none"> ()</span>  </span>  ‎ </span> <span class="pp-headline-item pp-headline-authority-page"> <span><a href="http://maps.google.de/local_url?dq=Google+Campus+USA&amp;q=http://www.google.com/about/company/&amp;ved=0CA4Q5AQ&amp;sa=X&amp;ei=b8YHUfHJMo6C8gOXkoHADw&amp;s=ANYYN7nZ8imM2nVEg8CWHA3Yn_mRsRV0Dw" target="_blank"><span>google.com</span></a></span> </span>   <span id="pp-reviews-headline"> <span><span>40 Erfahrungsberichte</span></span></span> </div>  </div> </div> <div style="clear:both"> <div> <div class="pp-story" id="pp-photos-container"> <div> <div class="bar"> <div class="pp-story-bar"> <span class="pp-story-title pp-story-title-text">Fotos</span> </div> </div> </div>   <div class="pp-story-body" id="pp-photos">  <span class="pp-photo">  <span>  <a href="http://maps.google.de/local_url?dq=Google+Campus+USA&amp;q=https://lh3.googleusercontent.com/-JFE7B3PqPDY/T-jPUTnx1AI/AAAAAAAAAAU/yNTPcyudnls/s1600/Google%252BWest%252BCampus%252B1%252BLobby&amp;ved=0CBAQhgU&amp;sa=X&amp;provider=googleusercontent.com&amp;geocode=FZMMOwIdYPm4-A&amp;ei=b8YHUfHJMo6C8gOXkoHADw&amp;s=ANYYN7l5cJqlLXrlnYHcdpLjwxhFKhytGA" target="_blank"> <div class="pp-video-img"> <img class="pp-fixed-photo pp-linked-photo" src="https://lh3.googleusercontent.com/-JFE7B3PqPDY/T-jPUTnx1AI/AAAAAAAAAAU/yNTPcyudnls/s120/Google%2BWest%2BCampus%2B1%2BLobby" alt="Foto" title=""/>  </div> </a>   <span class="pp-hover-attribution"><a href="http://maps.google.de/local_url?dq=Google+Campus+USA&amp;q=https://lh3.googleusercontent.com/-JFE7B3PqPDY/T-jPUTnx1AI/AAAAAAAAAAU/yNTPcyudnls/s1600/Google%252BWest%252BCampus%252B1%252BLobby&amp;ved=0CBEQhgU&amp;sa=X&amp;provider=googleusercontent.com&amp;geocode=FZMMOwIdYPm4-A&amp;ei=b8YHUfHJMo6C8gOXkoHADw&amp;s=ANYYN7l5cJqlLXrlnYHcdpLjwxhFKhytGA" target="_blank"><span>Von ...</span><img class="pp-small-popout-icon" src="files/small_popout_icon.png"/></a></span> </span> </span>  <div>  </div>  </div> </div> </div> </div> <div class="pp-story"><div id="pp-ads-container"><div id="pp-text-ads-container"><div id="textadsHeader">Anzeigen</div></div><div id="pp-display-ads-container">Werbeanzeige</div> <script>function google_ad_request_done(ads) {if (!ads.length) {return;}var doc = document;var par = window.parent;var e = doc.getElementById('pp-ads-container');while (!e) {doc = par.document || par.contentWindow.document || par.contentDocument;e = doc.getElementById('pp-ads-container');par = par.parent;}e = doc.getElementById('pp-text-ads-container');if (!e) {return;}var shouldDisplay = false;for (var i = 0; i < ads.length; ++i) {if (ads[i].type != 'text') {continue;}shouldDisplay = true;var s = '<a href="' + ads[i].url + '" target="_blank">';s += ads[i].line1 + '</a>';s += '<br>';s += '<span>' + ads[i].line2 + '<br>';s += ads[i].line3 + '<br></span>';s += '<span class="visurl">' + ads[i].visible_url + '</span><br>';if (ads[i].line5) {}var ad = doc.createElement('DIV');ad.className = 'one-ad';ad.innerHTML = s;ad.style.cssFloat = 'left';ad.style['width'] = '50%';e.appendChild(ad);}var clear = doc.createElement('DIV');clear.style.clear = 'both';e.appendChild(clear);if (shouldDisplay) {e.style['display'] = 'block';}var iframe = doc.getElementById('pp-ads-iframe');if (iframe) {e.removeChild(iframe);}}google_ad_client = 'ca-google-earth-localsearch';google_ad_output = 'js';google_max_num_ads = '2';google_page_url = 'http://maps.google.de/maps/place?cid\x3d11757674639797699615\x26q\x3dGoogle+Campus+USA';google_contents = 'Google';google_hints = 'Google Campus USA';google_city = 'Mountain View';google_region = 'US-CA';google_safe = 'high';google_language = 'de';google_ad_type = 'text';google_bid = 'cpc';google_ad_channel = 'category_business';google_image_size = '300x250'; </script><script src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script></div>  </div>   </div> <div class="pp-footer-line">   </div> </div> <script src="http://mw2.google.com/mw-earth-vectordb/scripts/placepage/linkfix.js" type="text/javascript"></script> </div>]]></value>
+		</Data>
+	</ExtendedData>
+	<Point>
+		<coordinates>-122.095264,37.424275,0</coordinates>
+	</Point>
+</Placemark>
+</kml>

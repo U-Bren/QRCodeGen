@@ -1,0 +1,5 @@
+BEGIN:VCARD 4.0
+VERSION:4.0
+FN:John Doe
+BDAY;VALUE=date-and-or-time;CALSCALE=julian:20111113
+END:VCARD

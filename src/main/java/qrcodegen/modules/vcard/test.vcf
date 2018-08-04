@@ -1,0 +1,16 @@
+BEGIN:VCARD
+VERSION:4.0
+FN:Dr.med. Dr.med.dent. Marlene Musterfrau
+N:Musterfrau;Marlene;Mia,Sophie;Dr.med.,Dr.med.dent.;
+BDAY:--0707
+ADR;TYPE=home;LABEL=Dr. Marlene Musterfrau\nLange Zeile 63\n91056 Erlangen\
+ nFederal Republic of Germany:;;Lange Zeile 63;Erlangen;;91052;Deutschland
+NICKNAME:Misa
+EMAIL;TYPE=home:misa.musterfrau@gmail.com
+EMAIL;TYPE=work:doktor_musterfrau@musterfrau.de
+TEL;TYPE=voice;TYPE=fax;TYPE=home:(09131)12-34-56-78
+TEL;TYPE=cell;TYPE=home:+49(177)12-34-56-78
+NOTE:You can send me a FAX\, too!\nBut don't call me late at night\, please
+ .
+URL;TYPE=work:HTTP://institut.musterfrau.de
+END:VCARD

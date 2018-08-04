@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:4.0
+FN:John Doe
+EMAIL;TYPE=home:
+EMAIL;TYPE="home":
+EMAIL;TYPE=home,work:
+EMAIL;TYPE="home",work:
+EMAIL;TYPE=home,"work":
+EMAIL;TYPE="home","work":
+EMAIL;TYPE=work;TYPE=home:
+EMAIL;TYPE="work";TYPE=home:
+EMAIL;TYPE=work;TYPE="home":
+EMAIL;TYPE="work";TYPE="home":
+END:VCARD
