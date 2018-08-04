@@ -104,7 +104,7 @@ public class ArcDegreeTest {
 
 	@Test
 	public void shouldReturnFormattedToString() {
-		String expectedResult = "90.50833333333334 == 90° 30' 30.0''";
+		String expectedResult = "90.50833333333334 == 90Â° 30' 30.0''";
 		String result = d_90_30_30.toString();
 		assertThat(result, equalTo(expectedResult));
 	}

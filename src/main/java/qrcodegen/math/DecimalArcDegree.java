@@ -112,7 +112,7 @@ public final class DecimalArcDegree implements Degree, Comparable<DecimalArcDegr
 	
 	@Override
 	public String toString() {
-		String dms = String.format("%1$d° %2$d' %3$s''", getDegree(), getMinute(), Double.toString(getDecimalSecond()));
+		String dms = String.format("%1$dÂ° %2$d' %3$s''", getDegree(), getMinute(), Double.toString(getDecimalSecond()));
 		return Double.toString(getValue()).concat(" == ").concat(dms);
 	}
 }

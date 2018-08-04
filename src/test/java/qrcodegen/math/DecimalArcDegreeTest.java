@@ -115,7 +115,7 @@ public class DecimalArcDegreeTest {
 
 	@Test
 	public void shouldReturnFormattedToString() {
-		String expectedResult = "90.0 == 90° 0' 0.0''";
+		String expectedResult = "90.0 == 90Â° 0' 0.0''";
 		String result = d_90_0_0.toString();
 		assertThat(result, equalTo(expectedResult));
 	}

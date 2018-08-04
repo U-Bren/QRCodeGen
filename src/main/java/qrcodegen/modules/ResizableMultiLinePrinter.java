@@ -77,7 +77,7 @@ import javax.swing.SwingUtilities;
 
 /**
  * A resizable component to display and print multiline text. The text can also
- * be rotated in 90° steps, as defined by {@link Rotation}. The vertical
+ * be rotated in 90Â° steps, as defined by {@link Rotation}. The vertical
  * alignment of the text can also be set, as defined by {@link VerticalAlignment}.
  *
  * @author Stefan Ganzer

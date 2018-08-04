@@ -128,7 +128,7 @@ public class PreciseDecimalArcDegreeTest {
 
 	@Test
 	public void shouldReturnFormattedToString() {
-		String expectedResult = "51.2345 == 51° 14' 4.2''";
+		String expectedResult = "51.2345 == 51Â° 14' 4.2''";
 		String result = d_5.toString();
 		assertThat(result, equalTo(expectedResult));
 	}

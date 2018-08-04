@@ -94,7 +94,7 @@ public enum Rotation {
 
 	@Override
 	public String toString() {
-		return String.format("%1$d°", degree);
+		return String.format("%1$dÂ°", degree);
 	}
 
 	public static Rotation fromInt(int i) {
@@ -113,7 +113,7 @@ public enum Rotation {
 				result = R270;
 				break;
 			default:
-				throw new IllegalArgumentException("Only 0°, 90°, 180° and 270° are allowed, but not " + i);
+				throw new IllegalArgumentException("Only 0Â°, 90Â°, 180Â° and 270Â° are allowed, but not " + i);
 		}
 		return result;
 	}
@@ -123,13 +123,13 @@ public enum Rotation {
 			throw new NullPointerException();
 		}
 		Rotation result;
-		if ("0".equals(s) || "0°".equals(s)) {
+		if ("0".equals(s) || "0Â°".equals(s)) {
 			result = R0;
-		} else if ("90".equals(s) || "90°".equals(s)) {
+		} else if ("90".equals(s) || "90Â°".equals(s)) {
 			result = R90;
-		} else if ("180".equals(s) || "180°".equals(s)) {
+		} else if ("180".equals(s) || "180Â°".equals(s)) {
 			result = R180;
-		} else if ("270".equals(s) || "270°".equals(s)) {
+		} else if ("270".equals(s) || "270Â°".equals(s)) {
 			result = R270;
 		} else {
 			throw new IllegalArgumentException(s);
