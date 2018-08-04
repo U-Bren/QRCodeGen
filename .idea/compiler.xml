@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="QRCodeGen" target="1.6" />
+      <module name="QRCodeGen" target="1.9" />
     </bytecodeTargetLevel>
   </component>
 </project>
